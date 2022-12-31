@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+nav{
+    box-shadow:0px 5px 8px rgba(0,0,0,.5) ;
+}
+.nn{
+    text-decoration: none;
+    font-size: 43px;
+    margin-left: 10px;
+    font-weight: 600;
+ }
+.navbar-brand span{
+    color: goldenrod;
+}
+.nav-link{
+    justify-content: space-between;
+    font-size: 21px;
+    font-weight: 400;
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+.nav-link:hover{
+    border-bottom: 2px solid goldenrod;
+    transition: 1.5s;
+}
+section{
+    width: 100%;
+    position: relative;
+}
+.cover img{
+    position:absolute ;
+    height: 300px;
+    top: 3.5%;
+    right: 68%;
+    filter: drop-shadow(0px 5px 12px rgba(0,0,0,.7));
+    transition: transfrom 2s;    
+}
+.cover h1{
+    display: flex;
+    margin-left: 40%;
+    margin-top: 8%;
+    text-decoration: underline transparent;
+    transition: 1s;
+}
+.cover pre{
+        margin-left: 35.5%;
+        font-family: 'Poppins',sans-serif;
+}
+.cover h1:hover{
+    text-decoration: underline goldenrod;
+    transition: 2s;
+}
+.cover img:hover{
+    transform: rotate(360deg);
+}
